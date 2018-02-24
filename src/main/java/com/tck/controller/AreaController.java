@@ -31,7 +31,6 @@ public class AreaController {
     public Map<String, Object> getAreaById(Integer areaId) {
         Map<String, Object> map = new HashMap<>();
         Area area = areaService.getAreaById(areaId);
-        int i = 10/0;
         map.put("area", area);
         return map;
     }
