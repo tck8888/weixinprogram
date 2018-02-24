@@ -16,5 +16,5 @@ public interface AreaService {
 
     boolean modifyArea(Area area);
 
-    boolean deleteArea(int area);
+    boolean removeAreaById(int area);
 }

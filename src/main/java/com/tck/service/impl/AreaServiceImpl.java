@@ -71,7 +71,7 @@ public class AreaServiceImpl implements AreaService {
     }
 
     @Override
-    public boolean deleteArea(int areaId) {
+    public boolean removeAreaById(int areaId) {
         if (areaId > 0) {
             try {
                 int effectedNum = areaDao.deleteArea(areaId);
